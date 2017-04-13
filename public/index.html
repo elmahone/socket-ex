@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sockets!</title>
+</head>
+<body>
+<h3>Join room</h3>
+<button value="random" class="room">random</button>
+<button value="bullshit" class="room">bullshit</button>
+<button value="games" class="room">games</button>
+<h1>You are in room: <span id="room-name">random</span></h1>
+
+<div id="send-container">
+    <h2>Send message</h2>
+    <input type="text" id="nick" name="nick">
+    <input type="text" id="message" name="message">
+    <button id="send">Send</button>
+</div>
+<div id="msg-container">
+</div>
+
+
+<script src="socket.io.js"></script>
+<script src="app.js"></script>
+<script>
+
+</script>
+</body>
+</html>
